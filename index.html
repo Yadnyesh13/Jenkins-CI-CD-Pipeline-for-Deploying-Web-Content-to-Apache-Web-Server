@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Welcome to Jenkins</title>
+  <style>
+    /* Yellow background, full-screen layout */
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #D3D3D3; /* bright yellow */
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color: #000; /* black text for good contrast */
+    }
+
+    /* Center the heading both vertically and horizontally */
+    .center {
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* Large, responsive heading */
+    h1 {
+      margin: 0;
+      line-height: 1;
+      /* responsive size: grows with viewport but clamped */
+      font-size: clamp(2.5rem, 8vw, 6rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.15); /* subtle lift */
+    }
+
+    /* Small accessibility tweak for very small screens */
+    @media (max-width: 360px) {
+      h1 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="center" role="main">
+    <h1>Welcome to Jenkins</h1>
+  </div>
+</body>
+</html>
