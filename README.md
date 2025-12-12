@@ -276,22 +276,22 @@ Once configured, developers only need to push code. Jenkins will automatically f
 ## 🖼️ Screenshots (Add Your Images Here)
 
 ### EC2 Servers
-![EC2 Servers](screenshots/EC2_Servers.png)
+![EC2 Servers](Jenkins_ScreenShot/EC2_Servers.png)
 
 ### Jenkins Console Output 1
-![Jenkins Console Output](screenshots/Jenkins_console_output.png)
+![Jenkins Console Output](Jenkins_ScreenShot/Jenkins_console_output.png)
 
 ### Jenkins Console Output 2
-![Console Output 2](screenshots/JenkinsConsole_output2.png)
+![Console Output 2](Jenkins_ScreenShot/JenkinsConsole_output2.png)
 
 ### Jenkins Project Page
-![Jenkins Project](screenshots/Jenkins_project.png)
+![Jenkins Project](Jenkins_ScreenShot/Jenkins_project.png)
 
 ### Deployment Output 1
-![Output 1](screenshots/Output1.png)
+![Output 1](Jenkins_ScreenShot/Output1.png)
 
 ### Deployment Output 2
-![Output 2](screenshots/Output2.png)
+![Output 2](Jenkins_ScreenShot/Output2.png)
 
 
 ---
